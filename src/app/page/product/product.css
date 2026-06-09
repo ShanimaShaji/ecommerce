@@ -1,0 +1,25 @@
+.product-card{
+border:none;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.product-card:hover{
+transform:translateY(-10px);
+}
+
+.product-card img{
+height:350px;
+object-fit:cover;
+}
+
+h1{
+font-weight:bold;
+margin-bottom:40px;
+}
+
+.container{
+min-height:70vh;
+}

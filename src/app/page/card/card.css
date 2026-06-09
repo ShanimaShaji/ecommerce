@@ -1,0 +1,25 @@
+.product-card{
+border:none;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+transition:.3s;
+height:100%;
+}
+
+.product-card:hover{
+transform:translateY(-10px);
+}
+
+.product-card img{
+height:300px;
+object-fit:cover;
+}
+
+.card-body{
+text-align:center;
+}
+
+.btn{
+margin-top:10px;
+}

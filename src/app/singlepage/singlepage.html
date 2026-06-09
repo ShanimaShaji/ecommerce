@@ -1,0 +1,16 @@
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      <img src="{{singledata.image}}" class="card-img-top" alt="...">
+    </div>
+    <div class="col">
+  <div class="card-body">
+    <h5 class="card-title">{{singledata.title}}</h5>
+    <p class="card-text">{{singledata.description}}</p>
+    <button class="gradient-button" [routerLink]="['/singlepage', singledata.id]">
+  BUY
+</button>
+    </div>
+    
+  </div>
+</div>

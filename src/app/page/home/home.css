@@ -1,0 +1,29 @@
+.hero-section{
+background:linear-gradient(135deg,#4f46e5,#7c3aed);
+padding:120px 20px;
+text-align:center;
+color:white;
+}
+
+.hero-section h1{
+font-size:60px;
+font-weight:bold;
+}
+
+.hero-section p{
+font-size:22px;
+margin:20px 0;
+}
+
+.feature-card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.15);
+text-align:center;
+transition:.3s;
+}
+
+.feature-card:hover{
+transform:translateY(-10px);
+}
